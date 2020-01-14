@@ -7,12 +7,18 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"dev": "nodemon server.js"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/danielAang/rent-a-car"
+	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
 		"dotenv": "^8.2.0",
-		"express": "^4.17.1"
+		"express": "^4.17.1",
+		"morgan": "^1.9.1",
+		"winston": "^3.2.1"
 	},
 	"devDependencies": {
 		"eslint": "^6.8.0",
